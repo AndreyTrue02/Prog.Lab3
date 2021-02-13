@@ -19,6 +19,9 @@ public class Moomintroll extends Human {
     public void climbed(Decor d) {
         System.out.println("Муми-тролль спустился по : " + d.getStairs() + " ,переступая ногами размера: " + leglength);
     }
+    public void Windowsill(Decor p) {
+        System.out.println("Муми-тролль перебрался через: " + p.getSill());
+    }
 
     public void look(Decor w, APlace s, APlace l) {
         place = s;
@@ -35,4 +38,3 @@ public class Moomintroll extends Human {
         }
     }
 }
-
