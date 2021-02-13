@@ -29,5 +29,7 @@ public class Human implements IHuman, IStandardFunc {
         places = h;
         System.out.println(Name + " сделал кувырок на локации: " + places.getPlace());
     }
+    public void Footprint(track k, Decor l){
+        System.out.println(Name + " отавил " + k.getTracks() + " Следы на" + l.getDampEarth());
+    }
 }
-
