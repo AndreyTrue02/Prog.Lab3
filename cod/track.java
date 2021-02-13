@@ -3,7 +3,9 @@ public class track {
    private boolean Opportunity;
     public enum kinds {
         Запутанные,
-        Куриные ;
+        Куриные,
+        Длинные,
+        Перекрещивающиеся;
     }
     public boolean getOpportunity(){
         return false;
